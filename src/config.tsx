@@ -43,7 +43,7 @@ const info = (
 			Focusing on {' '}
 			<span className="highlighted">back-end development</span>{' '}
 			while also learning a bit of {' '}
-			<span className="highlighted">frontend</span>{' '}
+			<span className="highlighted">front-end</span>{' '}
 			as a hobby. Currently, I am studying{' '}
 			<span className="highlighted">Vue.js</span>{' and '}
 			<span className="highlighted">NestJS</span>
