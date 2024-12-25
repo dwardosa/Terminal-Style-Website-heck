@@ -7,6 +7,7 @@ const email = 'ledinhchinh.dev@gmail.com'
 const projects = [
 	'MegumiKatou02/PomoFocus',
 	'MegumiKatou02/DiscordBotClient',
+	'MegumiKatou02/osu-beatmap-extractor',
 	'Koteru-Haiku/cli',
 ]
 
