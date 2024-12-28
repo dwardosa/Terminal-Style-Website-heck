@@ -10074,28 +10074,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"promptfolio@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "promptfolio@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": ^5.14.1
-    "@testing-library/react": ^12.0.0
-    "@testing-library/user-event": ^13.2.1
-    "@types/jest": ^27.4.1
-    "@types/node": ^17.0.23
-    "@types/react": ^17.0.43
-    "@types/react-dom": ^17.0.14
-    prettier: ^3.1.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 5.0.0
-    sass: ^1.51.0
-    typescript: ^4.6.3
-    typescript-plugin-css-modules: ^3.4.0
-    web-vitals: ^2.1.0
-  languageName: unknown
-  linkType: soft
-
 "prompts@npm:^2.0.1, prompts@npm:^2.4.2":
   version: 2.4.2
   resolution: "prompts@npm:2.4.2"
@@ -11707,6 +11685,28 @@ __metadata:
   checksum: ce3d2cd3a438c4a9453947aa664581519173ea40e77e2534d08c088ee6dda449eabdbe0a76d2a516b8b73c33262fedd10d5270ccf7576ae316e3db170ce6562f
   languageName: node
   linkType: hard
+
+"terminal@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "terminal@workspace:."
+  dependencies:
+    "@testing-library/jest-dom": ^5.14.1
+    "@testing-library/react": ^12.0.0
+    "@testing-library/user-event": ^13.2.1
+    "@types/jest": ^27.4.1
+    "@types/node": ^17.0.23
+    "@types/react": ^17.0.43
+    "@types/react-dom": ^17.0.14
+    prettier: ^3.1.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 5.0.0
+    sass: ^1.51.0
+    typescript: ^4.6.3
+    typescript-plugin-css-modules: ^3.4.0
+    web-vitals: ^2.1.0
+  languageName: unknown
+  linkType: soft
 
 "terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.2.5":
   version: 5.3.0
