@@ -7,7 +7,7 @@ const email = 'ledinhchinh.dev@gmail.com'
 const projects = [
 	'MegumiKatou02/PomoFocus',
 	'MegumiKatou02/DiscordBotClient',
-	'MegumiKatou02/osu-beatmap-extractor',
+	'MegumiKatou02/NekoMangaNovel',
 	'Koteru-Haiku/cli',
 ]
 
@@ -18,12 +18,6 @@ const links = [
 		link: 'https://github.com/MegumiKatou02',
 		description: 'My profile on GitHub',
 	},
-	// {
-	// 	name: 'Website',
-	// 	icon: 'fas fa-fw fa-coffee',
-	// 	link: 'https://darkguy10.github.io/',
-	// 	description: 'Personal website',
-	// },
 	{
 		name: 'Discord',
 		link: `https://discord.com/users/${discord_userid}`,
