@@ -5,7 +5,7 @@ const discord_userid = '604949724788817920'
 const email = 'ledinhchinh.dev@gmail.com'
 
 const projects = [
-	'MegumiKatou02/PomoFocus',
+	'MegumiKatou02/spotify-recently-played',
 	'MegumiKatou02/DiscordBotClient',
 	'MegumiKatou02/NekoMangaNovel',
 	'Koteru-Haiku/cli',
