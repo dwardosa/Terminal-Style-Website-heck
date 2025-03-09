@@ -5,7 +5,7 @@ const discord_userid = '604949724788817920'
 const email = 'ledinhchinh.dev@gmail.com'
 
 const projects = [
-	'MegumiKatou02/spotify-recently-played',
+	'MegumiKatou02/Anime-List',
 	'MegumiKatou02/DiscordBotClient',
 	'MegumiKatou02/NekoMangaNovel',
 	'Koteru-Haiku/cli',
@@ -41,8 +41,8 @@ const info = (
 			while also learning a bit of {' '}
 			<span className="highlighted">front-end</span>{' '}
 			as a hobby. Currently, I am studying{' '}
-			<span className="highlighted">Vue.js</span>{' and '}
-			<span className="highlighted">NestJS</span>
+			<span className="highlighted">NuxtJS</span>{' and '}
+			<span className="highlighted">Rust</span>
 		</p>
 		<p>
 			I have knowledge of{' '}
