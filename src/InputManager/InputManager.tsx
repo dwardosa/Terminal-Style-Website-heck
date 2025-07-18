@@ -27,7 +27,7 @@ class InputManager extends Component<
 		return (
 			<div className={styles.inputWrapper}>
 				<span className={styles.promptPrefix}>
-					<span>{github_username}</span>@<span>yuki:</span>
+					<span>{github_username}</span>@<span>heck:</span>
 					~$&nbsp;
 				</span>
 				<form
@@ -50,7 +50,7 @@ class InputManager extends Component<
 								: ''
 						}`}
 						spellCheck={false}
-						placeholder="confused? type help and hit enter to get started!"
+						placeholder="lost? type help and hit enter to see where you need to go..."
 						ref={this.inputRef}
 						autoFocus
 						onKeyDown={event => {

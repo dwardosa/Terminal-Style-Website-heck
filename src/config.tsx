@@ -1,8 +1,8 @@
 import React from 'react'
-const github_username = 'MegumiKatou02'
-const discord_usertag = 'yukiooki_'
-const discord_userid = '604949724788817920'
-const email = 'ledinhchinh.dev@gmail.com'
+const github_username = 'dwardosa'
+const discord_usertag = 'dwardosa'
+const discord_userid = 'heck'
+const email = 'Alex@blancpages.co.uk'
 
 const projects = [
 	'MegumiKatou02/Anime-List',
@@ -13,42 +13,40 @@ const projects = [
 
 const links = [
 	{
-		name: 'GitHub',
-		icon: 'fab fa-fw fa-github',
-		link: 'https://github.com/MegumiKatou02',
-		description: 'My profile on GitHub',
+		name: 'Unwind',
+		icon: 'fab fa-fw fa-music',
+		link: 'https://s.disco.ac/xhxzgtiwgsuy',
+		description: 'Lost and found...',
 	},
 	{
 		name: 'Discord',
 		link: `https://discord.com/users/${discord_userid}`,
 		icon: 'fab fa-fw fa-discord',
-		description: `${discord_usertag} | Add me as friend!`,
+		description: `Discord for the hottest drops`,
+	},
+	{
+		name: 'HDD Recovery complete.app',
+		icon: 'fab fa-fw fa-music',
+		link: 'https://333heck.disco.ac/playlist-new/17365703?date=20250616&user_id=1052871&signature=oTHrz0jlZTknms0XL9vbSA8kyXQ%3AP1eMjqc8',
+		description: 'Its all there, just not in the right place',
 	},
 	{
 		name: 'E-mail',
 		icon: 'fas fa-fw fa-at',
 		link: `mailto:${email}`,
-		description: 'Lets get in touch!',
+		description: 'Feedback loop',
 	},
 ]
 
 const info = (
 	<>
-		<p>Hello, I am a second-year student.</p>
+		<p>Hello, My HDD is FUCKED. Servers gone wayward an all, maudness</p>
 		<p>
-			Focusing on {' '}
-			<span className="highlighted">back-end development</span>{' '}
-			while also learning a bit of {' '}
-			<span className="highlighted">front-end</span>{' '}
-			as a hobby. Currently, I am studying{' '}
-			<span className="highlighted">NuxtJS</span>{' and '}
-			<span className="highlighted">Rust</span>
+			I Lost all me tunes init.
 		</p>
 		<p>
-			I have knowledge of{' '}
-			<span className="highlighted">TypeScript</span>{' and '}
-			<span className="highlighted">Python</span>
-		</p>
+			Can you help?
+			</p>
 	</>
 )
 

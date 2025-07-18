@@ -30,9 +30,9 @@ const rawCommands: Command[] = [
 		},
 	},
 	{
-		name: 'info',
+		name: 'load_process',
 		icon: 'fas fa-fw fa-info-circle',
-		description: 'Show information about me',
+		description: 'Show information about the server',
 		execute(app) {
 			const { userDataLoaded, userData } = app.state
 			if (!userDataLoaded)
@@ -69,9 +69,29 @@ const rawCommands: Command[] = [
 		},
 	},
 	{
-		name: 'projects',
+		name: 'recovery_mode',
 		icon: 'fas fa-fw fa-tools',
-		description: 'Display a list of my projects',
+		description: 'Initiate HDD recovery mode, one lost file at a time',
+		execute() {
+			return (
+				<>
+					{links.map(({ icon, name, link, description }, key) => (
+						<ListElement
+							key={key}
+							icon={icon}
+							name={name}
+							link={link}
+							description={description}
+						/>
+					))}
+				</>
+			)
+		},
+	},
+	{
+		name: 'shared_drive',
+		icon: 'fas fa-fw fa-link',
+		description: 'P2P shared drive, for the lost and found',
 		execute(app) {
 			const { projectDataLoaded, projectData } = app.state
 			if (!projectDataLoaded)
@@ -93,26 +113,7 @@ const rawCommands: Command[] = [
 			)
 		},
 	},
-	{
-		name: 'links',
-		icon: 'fas fa-fw fa-link',
-		description: 'Get all my important links and socials',
-		execute() {
-			return (
-				<>
-					{links.map(({ icon, name, link, description }, key) => (
-						<ListElement
-							key={key}
-							icon={icon}
-							name={name}
-							link={link}
-							description={description}
-						/>
-					))}
-				</>
-			)
-		},
-	},
+
 	{
 		name: 'clear',
 		icon: 'fas fa-fw fa-eraser',

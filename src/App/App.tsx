@@ -89,7 +89,7 @@ class App extends Component<{}, AppState> {
 						</div>
 						<div className={styles.titleHeader}>
 							<i className="fa-fw fas fa-code"></i>
-							Yukiookii - v1.0.1
+							HECK - v1.0.1
 						</div>
 					</div>
 					<div ref={this.mainRef} className={styles.mainContent}>
@@ -97,7 +97,7 @@ class App extends Component<{}, AppState> {
 							<div key={index}>
 								<span className={styles.promptPrefix}>
 									<span>{github_username}</span>@
-									<span>yuki:</span>
+									<span>heck:</span>
 									~${' '}
 									<span
 										className={
